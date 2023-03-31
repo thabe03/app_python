@@ -44,4 +44,5 @@ def home(session_id):
     return f'Bienvenue {username}!'
 
 if __name__ == '__main__':
+    users.init_db() #void
     app.run(debug=True)
